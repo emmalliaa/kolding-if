@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header nav{
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 80px;
+    border-bottom: rgb(193, 208, 190) 1px solid;
+    
+}
+
+header ul{
+    display: none;
+}
+header a{
+    padding: 5px;
+    text-decoration: none;
+    color: #1F3B12;
+
+}
+#logopic{
+    height: 119px;
+    width: 70px;
+    transform: rotate(138deg);
+    margin-top: -30px;
+}
+#logoname{
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'Abril Fatface', ;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 24px;
+    color: #1F3B12;
+    padding-top: 11px;
+}
+.fa-bars{
+    padding-top: 5px;
+    font-size: 25px;
+    color: #1F3B12;
+}
+.toggleShow {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    flex-direction: column;
+    left:0;
+    background-color: rgb(239, 239, 239);
+    width:100%;
+    list-style-type: none;
+    padding: 0;
+    align-items: center; 
+}
+.toggleShow li,
+.toggleShow a{
+    padding: 20px;
+}
